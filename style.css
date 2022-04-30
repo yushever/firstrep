@@ -1,0 +1,41 @@
+.page {
+    background-color: #EFF6FF;
+
+}
+.container {
+
+    background-color: #FFFFFF;
+    margin: 80px;
+}
+.heads {
+    font-size: 16px;
+    font-family: "Barlow";
+
+}
+.picture {
+    float: left;
+    
+}
+.registration {
+    float: right;
+  
+}
+.facebook {
+    background-color: #255A9B;
+    float: left;
+    font-family: "Barlow";
+}
+.linked {
+    background-color: #0076B6;
+    /* float: right; */
+    font-family: "Barlow";
+}
+.create {
+    background-color: #0076B6;
+    float: left;
+    font-family: "Barlow";
+}
+p {
+    color: white;
+    font-family: "Barlow";
+}
