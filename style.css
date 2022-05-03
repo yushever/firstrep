@@ -1,41 +1,165 @@
 .page {
     background-color: #EFF6FF;
-
+    font-family: "Barlow";
 }
 .container {
-
+    display: flex;
+    height: 500px;
+    margin: 30px;
+}
+.box1 {
+    background-image: url("bg.jpg");
+    background-size: contain;
+    min-width: 379px;
+}
+.logo {
+    padding-left: 30px;
+}
+.box2 {
     background-color: #FFFFFF;
-    margin: 80px;
+    flex-grow: 1;
+    min-width: 500px;
 }
 .heads {
-    font-size: 16px;
-    font-family: "Barlow";
-
+    font-size: 20px;
+    font-weight: bold;
+    color: #2A4A5C;
+    margin-left: 30px;
+    margin-top: 30px;
 }
-.picture {
-    float: left;
-    
-}
-.registration {
-    float: right;
-  
+.heads2 {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #2A4A5C;
+    margin-left: 30px;
 }
 .facebook {
+    height: 35px; width: 200px;
     background-color: #255A9B;
-    float: left;
-    font-family: "Barlow";
+    border: 0;
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
 }
 .linked {
+    height: 35px; width: 200px;
     background-color: #0076B6;
-    /* float: right; */
-    font-family: "Barlow";
+    border: 0;
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+}
+.or {
+    overflow: hidden;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-size: 0.7em;
+}
+.or:after {
+    /* Пустое свойство content, иначе псевдоэлементы не появятся */
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    height: 1px;
+    background-color: #AFAFAF;
+}
+.or:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+    height: 1px;
+    background-color: #AFAFAF;
 }
 .create {
-    background-color: #0076B6;
+    height: 35px; width: 200px;
+    background-color: #3698FB;
     float: left;
-    font-family: "Barlow";
-}
-p {
+    border: 0;
+    border-radius: 2px;
     color: white;
-    font-family: "Barlow";
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.q1 {
+    font-size: 1.1em;
+    color: #2A4A5C;
+    font-weight: bold;
+}
+.ans1 {
+    color: #2A4A5C;
+    font-size: 0.8em;
+}
+fieldset {
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+ }
+.choice {
+    font-size: 0.6em;
+    text-align: left;
+    color: #96A5B1;
+    height: 35px; width: 170px;
+    border: 1px;
+    border-color: #AFAFAF;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #AFAFAF;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.terms {
+    font-size: 0.8em;
+    color: #96A5B1;
+    margin-left: 30px;
+}
+.email {
+    font-size: 0.8em;
+    height: 33px; width: 195px;
+    border: 1px;
+    border-color: #AFAFAF;
+    border-style: solid;
+    border-left-color: #3698FB;
+    border-left-width: 2px;
+}
+.phone {
+    font-size: 0.8em;
+    height: 33px; width: 195px;
+    border: 1px;
+    border-color: #AFAFAF;
+    border-style: solid;
+}
+.checkbox {
+    accent-color: #0b6dbd;
+}
+.data {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.buttons {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.types {
+    font-size: 0.9em;;
+    text-align: justify;
+}
+.ch1 {
+    margin-right: 40px;
+}
+input::placeholder {
+    color: #96A5B1;
+    font-size: 0.8em;
+    text-align: left;
 }

@@ -1,92 +1,103 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <link href="style.css" rel="stylesheet">
-
     <meta charset="utf-8">
     <title>
         Get iintoo it today
     </title>
     <style>
         @font-face {
-        font-family: Barlow; /* Имя шрифта */
-        src: url(Barlow.ttf); /* Путь к файлу со шрифтом */
+        font-family: Barlow;
+        src: url(Barlow.ttf);
         }
     </style>
-
 
 </head> 
 <body class="page">
     <header>
-        
-
     </header>
     <main>
-        <section class="container">
-            <div class="picture">
-                <img src="bg.jpg" width="400" height="500" alt="Здесь картинка">
+        <div class="container">
+
+            <div class="box1">
+                <div class="logo">
+                <img src="logo.svg" width="100" height="100" alt="Здесь был логотип">
+                </div>
             </div>
-            <aside class="registration container">
-            <h1 class="heads">
-                Get iintoo it today
-            </h1>
-            <h2 class="heads">
-                There is no charge or obligation upon the registration.
-            </h2>
-            <button class="facebook">
-                <img src="facebook.svg" width="10" height="10">
-                Register with Facebook
-            </button>
-            <button class="linked">
-                <img src="linkedin.svg" width="10" height="10">
-                Register with Linkedin
-            </button>
-            <br>
-            <div>OR</div>
-            <br>
-            <input type="email" placeholder="Email"/>
-            <input type="text" placeholder="Phone"/>
-            <br>
-            <div>What type of investor are you?</div>
-            <div>Select the type of investor you are below.</div>
-            <br>
-
-            <form>
-                <label>
-                    <input type="radio"/>
-                    Individual
-                </label>
-                <label>
-                    <input type="radio"/>
-                    Business
-                </label>
-                <label>
-                    <input type="radio"/>
-                    IRA
-                </label>
-                <label>
-                    <input type="radio"/>
-                    Trust
-                </label>
-            </form>
-            <br>
-            <label>
-                <input type="checkbox"/>
-                I agree to the terms and receiving the notifications from iintoo <a href="google.com">View full terms</a>
-            </label>
-
-            <br>
-            <button class="create">
-                Create account
-            </button>
-            
-
-        </aside>
-        </section>
         
+            <div class="box2">
+                
+                <h1 class="heads">
+                    Get iintoo it today
+                </h1>
+                <h2 class="heads2">
+                    There is no charge or obligation upon the registration.
+                </h2>
+
+                <div class="buttons">
+                    <button class="facebook">
+                        <img src="facebook.svg" width="10" height="10">
+                        Register with Facebook
+                    </button>
+                    <button class="linked">
+                        <img src="linkedin.svg" width="10" height="10">
+                        Register with Linkedin
+                    </button>
+                </div>
+           
+                <div class="or">
+                    <span>OR</span>
+                </div>
+                            
+                <div class="data">
+                <input class="email" type="email" placeholder="Email"/>
+                <input class="phone" type="text" placeholder="Phone"/>
+                </div>
+
+                <form>
+                    <fieldset>
+                        <legend class="q1">What type of investor are you?</legend>
+                        <legend class="ans1">Select the type of investor you are below.</legend>
+                        <br>
+                    <div class="types">
+                    <label class="ch1">
+                        <input type="radio"/>
+                        Individual
+                    </label>
+                    <label class="ch1">
+                        <input type="radio"/>
+                        Business
+                    </label>
+                    <label class="ch1">
+                        <input type="radio"/>
+                        IRA
+                    </label>
+                    <label class="ch1">
+                        <input type="radio"/>
+                        Trust
+                    </label>
+                    </div>
+                </fieldset>
+                </form>
+                
+                <div class="choice">
+                    I am a natural person investing on my<br>own behalf as a sole owner, joint tenant,<br> or tenant in common.
+                </div>
+
+                <div class="terms">
+                    <input class="checkbox" type="checkbox"/>
+                    I agree to the terms and receiving the notifications from iintoo <a href="google.com">View full terms</a>
+                </div>
+
+                <button class="create">
+                    Create Account
+                </button>
+            
+            </div>
+        </div>
     </main>
     <footer>
-    
     </footer>
 </body> 
 
